@@ -14,8 +14,8 @@ In this project we implemented the paper "Domain-Specific Sentiment Lexicons Ind
 # Data
 Several data sources have been used to run experiments.
 
-VADER lexicon. (https://github.com/cjhutto/vaderSentiment) /n
-Amazon multi-domain sentiment dataset. /n
+VADER lexicon. (https://github.com/cjhutto/vaderSentiment) 
+Amazon multi-domain sentiment dataset. \n
 Aligned vectors from fastText. (https://fasttext.cc/docs/en/aligned-vectors.html) /n
 Word embeddings from fastText. /n
 Word embeddings from GloVe. /n
