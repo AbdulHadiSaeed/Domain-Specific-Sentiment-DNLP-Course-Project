@@ -1,5 +1,8 @@
 # Domain-Specific-Sentiment-DNLP-Course-Project
 
+# DomainSpecificLexicons
+
+In this project we implemented the paper "Domain-Specific Sentiment Lexicons Induced from Labeled Documents" (https://aclanthology.org/2020.coling-main.578/) and then performing some additional experiment.
 
 
 
@@ -8,19 +11,14 @@
 
 
 
-
-
-Data
+# Data
 Several data sources have been used to run experiments.
 
-VADER lexicon. [link]
-
+VADER lexicon. (https://github.com/cjhutto/vaderSentiment)
 Amazon multi-domain sentiment dataset.
-Aligned vectors from fastText. [link]
-
+Aligned vectors from fastText. (https://fasttext.cc/docs/en/aligned-vectors.html)
 Word embeddings from fastText.
 Word embeddings from GloVe.
-IMDB movie review dataset.
 
 
 
@@ -28,7 +26,8 @@ IMDB movie review dataset.
 
 
 
-To run this you need to have following requirements:
+
+# To run this you need to have following requirements:
 
 absl-py==0.8.1
 astor==0.8.0
