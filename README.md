@@ -68,3 +68,6 @@ tqdm==4.42.1
 webencodings==0.5.1
 Werkzeug==0.16.1
 wrapt==1.11.2
+
+Note: The dataset size was big so some dataset file weren't uploaded on github but you can find full code and data set on google drive too.
+https://drive.google.com/drive/folders/1hUf6nRSZEUnmR4gzv670w_UJNl1-WmSO?usp=sharing
