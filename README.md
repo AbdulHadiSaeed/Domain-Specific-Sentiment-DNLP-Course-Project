@@ -7,10 +7,6 @@ In this project we implemented the paper "Domain-Specific Sentiment Lexicons Ind
 
 
 
-
-
-
-
 # Data
 Several data sources have been used to run experiments.
 
@@ -69,5 +65,10 @@ webencodings==0.5.1
 Werkzeug==0.16.1
 wrapt==1.11.2
 
+Setting WRITE_CSV as True will over-ride previously written CSV file. So, keeping a backup of these CSV files might be a good idea. 
+Setting LOAD_PRE_TRAINED as False will train the predictor from the start and over-ride the previously saved model. So, keeping a backup of these pretrained models might be a good idea.
+
 Note: The dataset size was big so some dataset file weren't uploaded on github but you can find full code and data set on google drive too.
 https://drive.google.com/drive/folders/1hUf6nRSZEUnmR4gzv670w_UJNl1-WmSO?usp=sharing
+
+
